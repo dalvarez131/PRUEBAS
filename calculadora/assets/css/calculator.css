@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+}
+.calculator {
+    width: 50vh;
+    height: 80vh;
+    background-color: black;   
+
+}
+.pantalla {
+    width: 80%;
+    height: 10%;
+    background-color: white;
+    margin: 5% 5%;
+}
+.teclas {
+    width: 100%; 
+    height: 15%;
+    color: black;
+}
+.tecla {
+    width: 20%;
+    height: 90%;
+    background-color: white;
+    display: inline-block;
+    white-space: nowrap;
+    margin: 1% 1%;
+}
