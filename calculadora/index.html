@@ -9,31 +9,33 @@
 </head>
 <body>
     <div class="calculator">
-        <div class="pantalla"></div>
-        <div class="teclas">
-            <div class="tecla">1</div>
-            <div class="tecla">2</div>
-            <div class="tecla">3</div>
-            <div class="tecla">+</div>
+        <div class="screen">
+
         </div>
-        <div class="teclas">
-            <div class="tecla">4</div>
-            <div class="tecla">5</div>
-            <div class="tecla">6</div>
-            <div class="tecla">-</div>
+        <div class="row">
+            <button type="button" class="key" id="1"><p>1</p></button>
+            <button type="button" class="key" id="2"><p>2</p></button>
+            <button type="button" class="key" id="3"><p>3</p></button>
+            <button type="button" class="key" id="4"><p>+</p></button>
         </div>
-        <div class="teclas">
-            <div class="tecla">6</div>
-            <div class="tecla">7</div>
-            <div class="tecla">8</div>
-            <div class="tecla">*</div>
+        <div class="row">
+            <button type="button" class="key" onclick="detectKey()"><p>4</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>5</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>6</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>-</p></button>
         </div>
-        <div class="teclas">
-            <div class="tecla">0</div>
-            <div class="tecla">C</div>
-            <div class="tecla">/</div>
-            <div class="tecla">=</div>
+        <div class="row">
+            <button type="button" class="key" onclick="detectKey()"><p>7</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>8</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>9</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>*</p></button>
         </div>
+        <div class="row">
+            <button type="button" class="key" onclick="detectKey()"><p>0</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>C</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>/</p></button>
+            <button type="button" class="key" onclick="detectKey()"><p>=</p></button>
+        </div>            
     </div>
     <script src="./assets/js/calculator.js"></script>
 
